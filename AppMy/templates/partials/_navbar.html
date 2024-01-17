@@ -1,0 +1,25 @@
+{% block navbar %}
+{% load static %}
+<!--! Navbar Start  -->
+<nav class="navbar">
+    <div class="left">
+        <a href="/"><img src="{% static "img/logo.jpg" %}" alt="navbar_logo"></a>
+    </div>
+
+    <div class="right">
+        <ul>
+            <li><a href="/">Anasayfa</a></li>
+            <li><a href="haber_ekle">Haber Ekle</a></li>
+        </ul>
+    </div>
+    <div class="kayit_container">
+        <!-- <div class="kayit">
+            <ul>
+                <li><a href="kayit_ol.html">Kayıt Ol</a></li>
+                <li><a href="giris_yap.html">Giriş Yap</a></li>
+            </ul>
+        </div> -->
+    </div>
+</nav>
+<!--! Navbar End -->
+{% endblock navbar %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav>
+        {% include "partials/_navbar.html" %}
+    </nav>
+
+
+    <section class="haberler_sec">
+        <div class="haber">
+                <h1>{{ haber.haber_basligi }}</h1>
+                <p>{{ haber.haber_ozet }}</p>
+                <img src="{{haber.haber_resmi.url}}" alt="haber_resmi_bulunuyor">
+                <p>{{ haber.haber_icerigi |linebreaks }}</p>
+        </div>
+    </section>
+</body>
+</html>

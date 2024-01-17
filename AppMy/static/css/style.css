@@ -1,0 +1,508 @@
+/* Reset Start*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Reset End */
+
+/* !Footer Css Start */
+footer{
+    background-color: #2F2F2F;
+    margin-top: 200px;
+    /* */
+    padding-inline: 300px;
+    padding-block: 50px;
+}
+
+footer .up{
+    display: flex;
+}
+
+footer .up p{
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+footer .up .telefon{
+    display: flex;
+    margin-left: 70px;
+}
+
+footer .up .telefon p{
+    margin-top: 8px;
+}
+
+footer .down{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+footer .down .info .konum {
+    margin-top: 20px;
+    display: flex;
+}
+
+footer .down .info .konum .yazi{
+    margin-top: 8px;
+}
+
+footer .down .info a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .down .hakkimizda,footer .down .info, footer .down .sosyal_medya{
+    width: 200px;
+}
+
+footer .down .sosyal_medya .sosyal {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .down .sosyal_medya a img{
+    border-radius: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+/* !Footer Css End */
+
+/* Ortak Navbar Start */
+
+.navbar .left img{
+    width: 116px;
+    margin-top : -7px;
+}
+
+.navbar{
+    height: 117px;
+    width: 100%;
+}
+
+.navbar .right ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar .right a{
+    margin-inline: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar .kayit a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .kayit ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.navbar .kayit ul li:hover{
+    background-color: rgb(53,47,47);
+}
+
+
+.navbar .right ul li:hover{
+    background-color: rgb(53, 47, 47);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+}
+
+
+/* Ortak Navbar End */
+
+
+/* ! index.html css start */
+
+
+body{
+    background-color: rgba(8, 8, 22, 0.801);
+    font-family: Arial, sans-serif;
+}
+
+
+
+#ana_sec #one_cikan_haber{
+    border: 0px solid rgb(8, 8, 22, 0.801);
+    margin: auto;
+    /* width: 1000px; */
+    border-radius: 30px;
+}
+
+#ana_sec #one_cikan_haber .ilk_3 {
+    display: flex;
+}
+
+#ana_sec h1{
+    margin: 50px;
+    text-align: center;
+}
+
+.container .row{
+    margin-left:100px;
+}
+
+
+#ana_sec #one_cikan_haber .haber_card{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 20px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    margin-bottom: 30px;
+    margin-inline: 30px;
+}
+
+#ana_sec #one_cikan_haber .haber_card img,
+#ana_sec #one_cikan_haber .haber_2 img,
+#ana_sec #one_cikan_haber .haber_3 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#ana_sec #one_cikan_haber .haber_card h3,p,
+#ana_sec #one_cikan_haber .haber_2 h3,p,
+#ana_sec #one_cikan_haber .haber_3 h3,p{
+    text-align: center;
+    margin-inline: 10px;
+}
+
+
+
+#ana_sec #one_cikan_haber .son_3 {
+    display: flex;
+}
+
+#ana_sec #one_cikan_haber .haber_4,
+#ana_sec #one_cikan_haber .haber_5,
+#ana_sec #one_cikan_haber .haber_6 {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    margin-inline: 30px;
+}
+
+    #ana_sec #one_cikan_haber .ilk_3 .haber_card p,
+    #ana_sec #one_cikan_haber .ilk_3 .haber_2  p,
+    #ana_sec #one_cikan_haber .ilk_3 .haber_3  p,
+    #ana_sec #one_cikan_haber .son_3 .haber_4 p,
+    #ana_sec #one_cikan_haber .son_3 .haber_5 p,
+    #ana_sec #one_cikan_haber .son_3 .haber_6 p{
+        font-size: 20px;        
+    }
+
+    #ana_sec #one_cikan_haber .ilk_3 .haber_card h3,
+    #ana_sec #one_cikan_haber .ilk_3 .haber_2  h3,
+    #ana_sec #one_cikan_haber .ilk_3 .haber_3  h3,
+    #ana_sec #one_cikan_haber .son_3 .haber_4 h3,
+    #ana_sec #one_cikan_haber .son_3 .haber_5 h3,
+    #ana_sec #one_cikan_haber .son_3 .haber_6 h3{
+        font-size: 25px;        
+    }
+
+#ana_sec #one_cikan_haber .haber_4 img,
+#ana_sec #one_cikan_haber .haber_5 img,
+#ana_sec #one_cikan_haber .haber_6 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#ana_sec #one_cikan_haber .haber_4 h3,
+#ana_sec #one_cikan_haber .haber_5 h3,
+#ana_sec #one_cikan_haber .haber_6 h3,
+#ana_sec #one_cikan_haber .haber_4 p,
+#ana_sec #one_cikan_haber .haber_5 p,
+#ana_sec #one_cikan_haber .haber_6 p {
+    text-align: center;
+}
+
+
+/* https://www.haberturk.com/kisisel-verilerimiz-ele-mi-gecirildi-dolandiricilar-whatsapp-uzerinden-harekete-gecti-3608863-teknoloji -->haber1  */ 
+/* https://www.haberturk.com/15-starlink-uydusu-daha-uzaya-gonderildi-3608567-teknoloji -->haber2  */
+/* https://www.haberturk.com/threads-de-gecirilen-dakikalar-onemli-olcude-dustu-3608038-teknoloji -->haber3 */
+/* https://www.haberturk.com/tarihi-satin-almaya-mahkemeden-yesil-isik-3606579-teknoloji --> haber4  */
+/* https://www.haberturk.com/ibm-in-gelirinde-dusus-3608530-teknoloji -->haber5  */
+/* https://www.haberturk.com/elektrikli-bisiklet-ureticisi-vanmoof-iflas-etti-3608018-teknoloji -->haber6 */
+/* https://www.haberturk.com/fed-faiz-karari-toplantisi-tarihleri-2023-temmuz-fed-faiz-karari-ne-zaman-aciklanacak-iste-fed-toplanti-tarihleri-3609585 --> haber7 */
+/* https://www.haberturk.com/parmak-ucundan-alinan-kanla-alzheimer-in-erken-teshis-edilmesi-mumkun-olabilir-3609466 --> haber8 */
+/* https://www.haberturk.com/elon-musk-duyurdu-twitter-da-x-donemi-3609309-teknoloji  --> haber9 */
+/* https://www.haberturk.com/ttgv-den-iklim-teknolojilerine-katki-programi-3608948-teknoloji --> haber10 */
+
+/* ! index.html css end */
+
+
+/* ! kayit_ol.html css start */
+
+
+.kayit_formu{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+    background-color: rgb(193, 203, 211);
+    border-radius: 20px;
+}
+
+.kayit_formu h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+
+.kayit_formu input{
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    background-color: #F7F7F7;
+    width: 90%;
+    height: 40px;
+}
+
+.kayit_formu #kayit_ol{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #78B853;
+    cursor: pointer;
+}
+
+
+
+.kayit_formu #kayit_ol:hover{
+    background-color: #F7F7F7;
+}
+
+.kayit_formu input:focus{
+    outline: none;
+    border: 3px solid #78B853;
+}
+
+/* ! kayit_ol.html css end */
+
+
+/*! giris_yap.html css start */
+
+.giris_formu{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    padding: 50px;
+    background-color: rgb(193, 203, 211);
+    border-radius: 20px;
+}
+
+
+.giris_formu h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px
+}
+
+
+.giris_formu input{
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    background-color: #F7F7F7;
+    width: 90%;
+    height: 40px;
+}
+
+.giris_formu #giris_kullanici_adi{
+    margin-top: 100px;
+}
+
+.giris_formu #giris_yap{
+    text-align: center;
+    margin-top: 90px;
+    background-color: #78B853;
+    cursor: pointer;
+}
+
+
+
+.giris_formu #giris_yap:hover{
+    background-color: #F7F7F7;
+}
+
+.giris_formu input:focus{
+    outline: none;
+    border: 3px solid #78B853;
+}
+
+/* ! giris_yap.html css end */
+
+
+/*! haberler.html css start */
+
+#haber_kartlari {
+    margin: 50px auto; /* Bu satırı güncelleyin */
+    width: 700px;
+    border-radius: 30px;
+    background-color: rgba(8, 8, 22, 0.801);
+    padding: 20px;
+}   
+
+#haber_kartlari h1 {
+    margin: 20px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+
+
+.haber_karti {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 600px; /* Genişliği içeriğe göre ayarla */
+    height: 600px; /* Yüksekliği içeriğe göre ayarla */
+}
+
+
+.haber_karti img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.haber_karti h3, .haber_karti p {
+    text-align: center;
+}
+
+/*? HABER BUTONU CSS  */
+.haber_butonu {
+    display: block;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px auto;
+    background-color: black;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.haber_butonu:hover {
+    background-color: #F7F7F7;
+    
+}
+
+.haber_butonu a {
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 12px;
+}
+
+.haber_butonu a:hover {
+    color: black;
+}
+
+/* ?------------------------HABER BUTONU CSS END ----------------------------------------------- */
+
+.all_sidebar {
+    width: 250px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left; /* Kenar çubuğunun sol tarafta durmasını sağlar */
+    background-color: #2F2F2F;
+}
+
+.sidebar label{
+    font-size: 30px;
+}
+
+.sidebar .label_div{
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.sidebar .label_div:hover{
+    background-color: white;
+    color: #2F2F2F;
+}
+
+.sidebar input{
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+/* ! haberler.html css end */
+
+/*! haber yazıları.html css start */
+
+
+.haberler_sec .haber{
+    margin: auto;
+    width: 800px;
+    background-color: #F7F7F7;
+    padding: 30px;
+    height: 100%;
+}
+
+.haberler_sec .haber h1{
+    margin-top: 20px;
+}
+
+.haberler_sec .haber h1,h3{
+    text-align: center;
+}
+
+.haberler_sec .haber p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.haberler_sec .haber ul li {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.haberler_sec .haber img{
+    width: 100%;
+}
+
+.haberler_sec .haber .twitter-tweet{
+    margin: auto;
+}
+
+

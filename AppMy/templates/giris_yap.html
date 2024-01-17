@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    {% include "partials/_navbar.html" %}
+
+    <!-- Section Start -->
+    
+    <section class="giris_formu">
+        <h1>Giriş Yap</h1>
+        <input type="text" id="giris_kullanici_adi" name="kullanici_adi" placeholder="Kullanıcı Adı giriniz"> <br>
+        <input type="password" placeholder="Şifrenizi Giriniz"> <br>
+        <input type="submit" id="giris_yap" value="Giriş Yap">
+    </section>
+    
+    <!-- Section End -->
+
+
+    <!--! Footer Start -->
+
+    <footer>
+        {% include "partials/_footer.html" %}
+    </footer>
+    <!-- ! Footer End -->
+</body>
+</html>
